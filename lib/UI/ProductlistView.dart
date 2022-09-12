@@ -64,10 +64,10 @@ class _ProductListViewState extends State<ProductListView> {
                           state.products[index].featuredImage!,
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.all(3.0),
-                        child: Flexible(
-                          flex: 2,
+                      Flexible(
+                        flex: 2,
+                        child: Padding(
+                          padding: const EdgeInsets.all(4.0),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
